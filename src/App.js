@@ -1,26 +1,67 @@
-import { Route, Routes } from 'react-router-dom';
+// import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+// layout
 import Layout from './Layouts/Layout';
+
+// pages
 import Blog from './pages/Blog/Blog';
 import FAQs from './pages/FAQs/FAQs';
 import Home from './pages/Home/Home';
 import Invest from './pages/Invest/Invest';
 import Save from './pages/Save/Save';
 import Stories from './pages/Stories/Stories';
+import Signin from './pages/Signin/Signin';
+import Signup from './pages/Signup/Signup';
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Layout/>,
+    children:[
+      {
+        path: '/',
+        element: <Home/>
+      },
+      {
+        path: 'blog',
+        element: <Blog/>
+      },
+      {
+        path: 'faqs',
+        element: <FAQs/>
+      },
+      {
+        path: 'invest',
+        element: <Invest/>
+      },{
+        path: 'save',
+        element: <Save/>
+      }
+      ,{
+        path: 'stories',
+        element: <Stories/>
+      }
+    ]
+  },
+  {
+    path:'login',
+    element: <Signin/>
+  }
+  ,
+  {
+    path:'signup',
+    element: <Signup/>
+  }
+]);
 
 function App() {
   return (
     <div className="App">
-      <Routes>
-        <Route path='/' element={<Layout/>}>
-          <Route index element={<Home/>}/>
-          <Route path='blog' element={<Blog/>}/>
-          <Route path='faqs' element={<FAQs/>}/>
-          <Route path='invest' element={<Invest/>}/>
-          <Route path='save' element={<Save/>}/>
-          <Route path='stories' element={<Stories/>}/>
-        </Route>
-      </Routes>
+       <RouterProvider router={router} />
     </div>
   );
 }

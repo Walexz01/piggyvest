@@ -27,10 +27,10 @@ const Layout = () => {
 
                 <div className="nav_bar--left">
                     <div className="sign_in btn">
-                        <Link>Sign in</Link>
+                        <Link to='login'>Sign in</Link>
                     </div>
                     <div className="create_acct btn">
-                        <Link>Create free account</Link>
+                        <Link to='signup'>Create free account</Link>
                     </div>
                 </div>
             </nav>
