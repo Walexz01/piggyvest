@@ -1,0 +1,27 @@
+export const NavLinks=[
+    {
+        id:1,
+        name:"Save",
+        path:"save"
+    },
+    {
+        id:2,
+        name:"Invest",
+        path:"invest"
+    },
+    {
+        id:3,
+        name:"Stories",
+        path:"stories"
+    },
+    {
+        id:4,
+        name:"FAQs",
+        path:"faqs"
+    },
+    {
+        id:5,
+        name:"Blog",
+        path:"blog"
+    }
+]
