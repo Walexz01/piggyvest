@@ -1,9 +1,12 @@
 import React from 'react'
+import Mainheader from '../../Components/Mainheader'
 import './home.css'
 
 const Home = () => {
   return (
-    <div className='home'>Home</div>
+    <div className='home'>
+      <Mainheader/>
+    </div>
   )
 }
 
