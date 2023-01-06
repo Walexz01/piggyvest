@@ -2,6 +2,13 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import apple from '../piggy-image/home_page_images/apple-icon.svg'
 import google from '../piggy-image/home_page_images/google-icon.svg'
+import imgborder from '../piggy-image/home_page_images/rect.png'
+import girlimg from '../piggy-image/home_page_images/header_Img_a2a9220bd6.png'
+import card1 from '../piggy-image/home_page_images/card1.png'
+import card2 from '../piggy-image/home_page_images/card2.png'
+import main_dot from '../piggy-image/home_page_images/main_header_icon3.png'
+import main_donut from '../piggy-image/home_page_images/main_header_icon2.png'
+import main_shape from '../piggy-image/home_page_images/main_header_icon.png'
 
 const Mainheader = () => {
   return (
@@ -23,7 +30,33 @@ const Mainheader = () => {
                     </div>
 
             </div>
-            <div className="main__header--right">ff</div>
+                <div className="main__header--right--background"/>
+            <div className="main__header--right">
+                <div className="main__header__image--container">
+                    <div className="main__header--border--img">
+                        <img src={imgborder} alt="" />
+                    </div>
+                    <div className="main__header--girl--img">
+                        <img src={girlimg} alt="" />
+                    </div>
+                    <div className="main__header--card1">
+                        <img src={card1} alt="" />
+                    </div>
+                    <div className="main__header--card2">
+                        <img src={card2} alt="" />
+                    </div>
+                    <div className="main__header--donut">
+                        <img src={main_donut} alt="" />
+                    </div>
+                    <div className="main__header--dot">
+                        <img src={main_dot} alt="" />
+                    </div>
+                    <div className="main__header--shape">
+                        <img src={main_shape} alt="" />
+                    </div>
+
+                </div>
+            </div>
         </div>
     </section>
   )
