@@ -8,6 +8,7 @@
 :root{
     --container__width--lg: 80%;
     --container__width--md: 90%;
+    --text_muted: rgba(0, 0, 0,0.7);
 }
 img{
     width: 100%;
@@ -15,6 +16,7 @@ img{
 }
 section{ 
     position: relative;
+    padding: 4rem 0 2rem 0;
  }
 .container{
     width: var(--container__width--lg);
@@ -26,8 +28,9 @@ header{
     display: flex;
     align-items: center;
     position: fixed;
-    height: 7rem;
+    height: 6.5rem;
     z-index: 222;
+    background-color: transparent;
 }
 header nav{
     display: flex;
@@ -37,13 +40,13 @@ header nav{
     width: var(--container__width--lg);
     margin-inline: auto;
     align-items: center;
-    padding: .3rem 1rem 1rem 1rem;
+    padding: .3rem 0rem .7rem 1rem;
     justify-content: space-between;
 }
 .nav_bar--right{
     display: flex;
     align-items: center;
-    gap: 1.5rem;
+    gap: 3rem;
 }
 .nav_bar--right img{
     height: 2rem;
@@ -52,11 +55,11 @@ header nav{
 header nav ul{
     display: flex;
     align-items: center;
-    gap: 1.7rem;
+    gap: 1.5rem;
 }
 header nav ul li a{
     color: #0c1825;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 600;
     padding: .5rem;
 
@@ -64,14 +67,14 @@ header nav ul li a{
 .nav_bar--left{
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 1.7rem;
 }
 .btn a{
     padding: 1rem 1.2rem;
-    font-size: 1.1rem;
+    font-size: 1rem;
     border-radius: .7rem;
     font-family: DM Sans,sans-serif!important;
-    font-weight: 800;
+    font-weight: 700;
     text-align: center;
     white-space: nowrap;
     
