@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import {BsArrowRight} from 'react-icons/bs'
+import { Buildsavingsdata } from '../data'
 
 const Buildsavings = () => {
   return (
@@ -14,8 +16,26 @@ const Buildsavings = () => {
           </div>
 
           <div className="build__saving--right">
-            this is the right
-          </div>
+            {Buildsavingsdata.map(({image,title,desc,link})=>{
+              return(
+            <div className="card">
+              <Link>
+                <div className="card__icon__top">
+                  <img src={image} alt="" />
+                </div>
+                <div className="card__details">
+                  <h3>{title}</h3>
+                  <p>{desc}</p>
+                  <div className="card__link">
+                    <BsArrowRight/> <span>{link}</span>
+                  </div>
+                </div>
+              </Link>
+            </div>
+              )
+            })
+            }
+        </div>
         </div>
     </section>
   )

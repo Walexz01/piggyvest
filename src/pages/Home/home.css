@@ -180,6 +180,7 @@
 }
 .build__saving--left{
     padding: 1rem 2rem 1rem 1rem ;
+    margin-top: 2rem;
 }
 .build__saving--left  h2{
     font-size: 2.5rem;
@@ -195,6 +196,69 @@
 .start__saving__btn{
     padding-top: 2rem;
 }
+
+
 .build__saving--right{
-    background: green;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:  2rem 3.5rem;
+}
+.card{
+    background: #f9f9f9;
+    padding: 1.5rem ;
+    border-radius: 1rem;
+}
+.card__icon__top{
+    height: 3.5rem;
+    width: 3.5rem;
+    margin-bottom: 2rem;
+}
+.card .card__details h3{
+    font-size: 1.4rem;
+    padding-bottom: 1rem;
+    font-weight: 500;
+    color: black;
+    font-family: DM Sans,sans-serif ;
+}
+.card .card__details p{
+    font-size: 1.2rem;
+    color: var(--text_muted);
+    line-height: 1.4;
+}
+.card .card__link{
+    display: flex;
+    align-items: center;
+    color: black;
+    padding-top: 5rem;
+    gap: .5rem;
+    right:  0;
+    position: relative;
+    font-size: 1.2rem;
+    transition: all .4s ease;
+}
+.card .card__link span{
+    font-weight: 500;
+}
+.card .card__link svg{
+    font-size: 2.5rem;
+    background: rgb(224, 239, 255);
+    padding: .4rem;
+    border-radius: 50%;
+    border: none;
+    color: rgb(0, 51, 153);
+}
+.card a:hover .card__link{
+    right: -1rem;
+}
+.card:nth-of-type(2) .card__link svg {
+    background: rgb(227, 245, 255);
+    color: rgb(50, 150, 255);
+}
+.card:nth-of-type(3) .card__link svg {
+    background: rgb(228, 255, 240);
+    color:rgb(6, 155, 64);
+}
+.card:nth-of-type(4) .card__link svg {
+    background: rgb(253, 231, 245);
+    color:rgb(229, 40, 142);
 }
