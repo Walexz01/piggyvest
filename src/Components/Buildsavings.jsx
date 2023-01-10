@@ -16,9 +16,9 @@ const Buildsavings = () => {
           </div>
 
           <div className="build__saving--right">
-            {Buildsavingsdata.map(({image,title,desc,link})=>{
+            {Buildsavingsdata.map(({image,title,desc,link},index)=>{
               return(
-            <div className="card">
+            <div className="card" key={index}>
               <Link>
                 <div className="card__icon__top">
                   <img src={image} alt="" />

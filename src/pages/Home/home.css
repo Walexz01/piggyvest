@@ -84,48 +84,46 @@
     bottom: 0;
     height: 100%;
 }
+.main__header--right > div img{
+    position: absolute;
+
+
+}
 
 
 .main__header--border--img img{
-    position:absolute ;
     top: -2rem;
     right: -1rem;
     transform: scale(0.59);
 }
 .main__header--girl--img img{
     transform: scale(.6);
-    position:absolute ;
     top: 2rem;
     left: -3rem;
 
 }
 .main__header--card1 img{
     transform: scale(.35);
-    position: absolute;
     top: 10rem;
     right: 15rem;
 }
 .main__header--card2 img{
     transform: scale(.35);
-    position: absolute;
     bottom: 2rem;
     right: -8rem;
 }
 .main__header--dot img{
     transform: scale(.1);
-    position: absolute;
     top: -8rem;
     left: -13.7rem;
 }
 .main__header--donut img{
     transform: scale(.08);
-    position: absolute;
     bottom: 7rem;
     right: -8rem;
 }
 .main__header--shape img{
     transform: scale(.1);
-    position: absolute;
     top: -5rem;
     left: -14rem;
 }
@@ -135,13 +133,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1.5rem;
-    width: 60%;
-    padding: 0 4rem;
+    gap: 2rem;
+    width: 65%;
 }
 .security__img{
-    height: 10rem;
-    width: 10rem;
+    height: 15rem;
+    width: 15rem;
 }
 .security__text{
     display: flex;
@@ -156,7 +153,7 @@
     margin-top: -5rem;
 }
 .security__text p{
-    font-size: 1rem;
+    font-size: 1.2rem;
     line-height: 1.5;
     color: var(--text_muted)
 }
@@ -261,4 +258,34 @@
 .card:nth-of-type(4) .card__link svg {
     background: rgb(253, 231, 245);
     color:rgb(229, 40, 142);
+}
+
+
+/* ==================== styles for the investify section ================= */
+.investify__section--container{
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    gap: 2rem;
+}
+.investify__left{
+    display: grid;
+    position: relative;
+}
+.investify__left .investify__image{
+    height: 40rem;
+    width: 30rem;
+    margin: 0;
+}
+.investify__left .investify__dot{
+    width: 10rem;
+    height: 10rem;
+    position: absolute;
+    right: -2rem;
+    top: 1rem;
+}
+.investify__right{
+    text-align: left;
 }
