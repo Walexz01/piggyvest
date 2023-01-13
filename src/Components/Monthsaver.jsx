@@ -1,6 +1,7 @@
 import React from 'react'
 import {BsArrowRight} from 'react-icons/bs'
 import { Link } from 'react-router-dom'
+import oyetola from '../piggy-image/home_page_images/oyetades.jpg'
 
 
 const Monthsaver = () => {
@@ -17,7 +18,9 @@ const Monthsaver = () => {
           </div>
         </div>
         <div className="month__saver__right">
-          this is the right side of the month saver page
+          <div className="oyetola__img__container">
+            <img src={oyetola} alt="" />
+          </div>
         </div>
       </div>
     </section>
