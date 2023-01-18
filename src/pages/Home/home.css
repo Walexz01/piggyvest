@@ -371,12 +371,12 @@
 .customers__section{
     height: 70vh;
     display: grid;
-    place-items: center;
-    padding: 0;
+    padding: 3rem 0;
 }
 .customers__container{
     display: grid;
     grid-template-columns: 30rem 1fr;
+    align-items: center;
     gap: 4rem;
 }
 .right__customer__container{
@@ -405,6 +405,7 @@
 .customer__tweet{
     background: #f9f9f9;
     padding: 1rem;
+    margin: 1rem 0;
 }
 .customer__tweet .tweet__date__time--container{
     text-align: right;
@@ -421,19 +422,63 @@
     color: black;
     font-size: 1rem;
     font-weight: 500;
-    padding-bottom: .5rem;
+    padding-bottom: .3rem;
 }
 .tweet__content--details .tweet__message{
     color: var(--text_muted);
     font-size: .9rem;
     line-height: 1.6;
 }
-.tweet__img{
-    width: 15rem;
-    overflow: hidden;
-}
 .tweet__img img{
-    width: 100%;
+    width: 3rem;
     border-radius: 50%;
     overflow: hidden;
+}
+.left__customer__container{
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+.left__customer__container::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    height: 3rem;
+    width: 100%;
+    background: linear-gradient(180deg,#fff 0,hsla(0,0%,100%,0));
+
+}
+.left__customer__container::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 3rem;
+    width: 100%;
+    z-index: 2;
+    background:linear-gradient(180deg,#fff 0,hsla(0,0%,100%,0));
+
+}
+.customer__tweets__container{
+    animation: slidetweet 30s linear 0s infinite normal none ;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+@keyframes slidetweet {
+    0% {
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-50%);
+    }
+    100% {
+        transform: translateY(-100%);
+    }
 }

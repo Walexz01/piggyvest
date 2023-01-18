@@ -60,3 +60,38 @@ export const Buildsavingsdata= [
     }
     
 ]
+
+
+// tweets 
+const tweet1 = require('./piggy-image/home_page_images/tweet1.jpg')
+const tweet2 = require('./piggy-image/home_page_images/tweet2.jpg')
+const tweet3 = require('./piggy-image/home_page_images/tweet3.jpg')
+const tweet4 = require('./piggy-image/home_page_images/tweet4.jpg')
+
+export const Tweetdata= [
+    {
+        image: tweet1,
+        date__time:"Thursday, 27th of October 2022 by 13:03 PM",
+        name: "Rachael O",
+        message:"My name is Rachael Joseph and I am here to testify that Piggyvest has helped me a lot. I had to spread the good news to my friends and tell them about the app and behold they are also using it. Thank you so much Pggyvest for saving me cause I am the type of person that spends lavishly. Thank you once again Piggyvest 💙",
+    },
+    {
+        image:tweet2,
+        date__time:"Thursday, 6th of October 2022 by 11:42 AM",
+        name: "Tobenna A",
+        message:"Thanks to piggyvest I've saved enough money to start up a really large business",
+    },
+    {
+        image:tweet3,
+        date__time:" Wednesday, 5th of October 2022 by 03:08 AM",
+        name: "Micheal F",
+        message:"I just joined tho and I believe piggyVest won't disappoint me 😊❤️",
+    },
+    {
+        image:tweet4,
+        date__time:"Monday, 24th of October 2022 by 23:27 PM",
+        name: "Uchendu C",
+        message:"Whenever money got into my hands, I never knew how I squandered it so fast without even saving a little. I got to hear about Piggy vest and it's various services and right now, I am totally enjoying this journey.",
+    }
+    
+]

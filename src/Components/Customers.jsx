@@ -1,9 +1,10 @@
 import React from 'react'
 import apple from '../piggy-image/home_page_images/apple-icon.svg'
 import google from '../piggy-image/home_page_images/google-icon.svg'
-
 import { Link } from 'react-router-dom'
 import Customertweet from './Customertweet'
+
+import { Tweetdata } from '../data'
 
 const Customers = () => {
   return (
@@ -11,7 +12,13 @@ const Customers = () => {
         <div className="container customers__container">
             <div className="left__customer__container">
                 <div className="customer__tweets__container">
-                    <Customertweet/>
+                    {
+                        Tweetdata.map(({image,date__time,name,message},index)=>{
+                            return(
+                                <Customertweet key={index} date__time={date__time} image={image} name={name} message={message} />
+                            ) 
+                        })
+                    }
                 </div>
             </div>
             
