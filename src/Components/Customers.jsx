@@ -3,13 +3,16 @@ import apple from '../piggy-image/home_page_images/apple-icon.svg'
 import google from '../piggy-image/home_page_images/google-icon.svg'
 
 import { Link } from 'react-router-dom'
+import Customertweet from './Customertweet'
 
 const Customers = () => {
   return (
     <section className='customers__section'>
         <div className="container customers__container">
             <div className="left__customer__container">
-                ggg
+                <div className="customer__tweets__container">
+                    <Customertweet/>
+                </div>
             </div>
             
             <div className="right__customer__container">

@@ -398,12 +398,42 @@
 .right__customer__content .create_acct{
     margin-top: 1.5rem;
 }
-.left__customer__container{
-    background: #0d60d8;
-}
-
 .customer__content--bottom .get__app__link:hover{
     top: 0;
     box-shadow:none;
-
+}
+.customer__tweet{
+    background: #f9f9f9;
+    padding: 1rem;
+}
+.customer__tweet .tweet__date__time--container{
+    text-align: right;
+    font-size: 1.2rem;
+    color: var(--text_muted);
+    font-weight: 400;
+    padding-bottom: 1rem;
+}
+.tweet__content{
+    display: flex;
+    gap: 1rem;
+}
+.tweet__content--details .tweeter__name{
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+    padding-bottom: .5rem;
+}
+.tweet__content--details .tweet__message{
+    color: var(--text_muted);
+    font-size: .9rem;
+    line-height: 1.6;
+}
+.tweet__img{
+    width: 15rem;
+    overflow: hidden;
+}
+.tweet__img img{
+    width: 100%;
+    border-radius: 50%;
+    overflow: hidden;
 }
