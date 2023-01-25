@@ -510,3 +510,47 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+
+/* footer__section */
+.footer__section--top{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: .5rem;
+}
+.footer__logo--conatiner{
+    margin-right: 2rem;
+}
+.ndpr__logo--conatiner{
+    border: .2rem solid var(--color_light);
+    border-radius: .5rem;
+    overflow: hidden;
+    width: 13rem;
+    transform: scale(.8);
+}
+.link--header{
+    color: #0c1825;
+    font-size: 1.1rem;
+}
+.footer__links--container{
+    margin-top: 1rem;
+}
+.footer__link a{
+    color: var(--text_muted);
+    font-size: 1rem;
+    line-height: 2;
+    font-weight: 500;
+}
+.contact__icon--group svg{
+    font-size:2rem;
+    margin-right: .5rem;
+}
+.contact___text{
+    font-weight: 500;
+    text-align: right;
+}
+a.contact__link{
+    color: var(--text_muted);
+    font-size: 1rem;
+    display: inline-block;
+    padding-top: 1em;
+}

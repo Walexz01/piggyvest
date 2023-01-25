@@ -2,6 +2,7 @@ import React from 'react'
 import Asfeatured from '../../Components/Asfeatured'
 import Buildsavings from '../../Components/Buildsavings'
 import Customers from '../../Components/Customers'
+import Footer from '../../Components/Footer'
 import Investify from '../../Components/Investify'
 import Mainheader from '../../Components/Mainheader'
 import Monthsaver from '../../Components/Monthsaver'
@@ -18,6 +19,7 @@ const Home = () => {
       <Monthsaver/>
       <Customers/>
       <Asfeatured/>
+      <Footer/>
     </div>
   )
 }

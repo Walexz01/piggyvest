@@ -95,3 +95,55 @@ export const Tweetdata= [
     }
     
 ]
+
+export const productsLink = [
+    {
+        name: 'Piggybank',
+        link: '/piggybank'
+    },
+    {
+        name: 'Invest',
+        link: '/invest'
+    },
+    {
+        name: 'Safelock',
+        link: '/safelock'
+    },
+    {
+        name: 'Target Savings',
+        link: '/targets'
+    },
+    {
+        name: 'Flex Naira',
+        link: '/flex-naira'
+    },
+]
+
+export const companyLink = [
+    {
+        name: 'About',
+        link: '/about'
+    },
+    {
+        name: 'FAQs',
+        link: '/faq'
+    },
+    {
+        name: 'Blog',
+        link: '/blog'
+    }
+]
+export const legalLink = [
+    {
+        name: 'Terms',
+        link: '/terms'
+    },
+    {
+        name: 'Privacy',
+        link: '/privacy'
+    },
+    {
+        name: 'Security',
+        link: '/security'
+    }
+]
