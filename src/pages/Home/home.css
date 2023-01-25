@@ -554,3 +554,20 @@ a.contact__link{
     display: inline-block;
     padding-top: 1em;
 }
+.footer__bottom{
+    padding: 5rem  12rem;
+    text-align: center;
+    color: var(--text_muted);
+}
+.footer__bottom p{
+    line-height: 1.6;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.footer__bottom small{
+    padding-top: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    display: inline-block;
+    color: #0d60d8;
+}

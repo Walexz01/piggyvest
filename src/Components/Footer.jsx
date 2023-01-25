@@ -89,6 +89,10 @@ Tesmot house, Abdulrahman Okene close, Victoria Island, Lagos, Nigeria.
           </div>
 
         </div>
+        <div className="footer__bottom">
+          <p>Piggyvest (formerly piggybank.ng) is the leading online savings & investing platform in Nigeria. For over 6 years, our customers have saved and invested billions of Naira that they would normally be tempted to spend.</p>
+          <small>2016 - 2022 PiggyTech Global Limited - RC 1405222</small>
+        </div>
       </div>
     </section>
   )
