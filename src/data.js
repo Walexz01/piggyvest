@@ -1,8 +1,36 @@
+// images
+const build1 = require('./piggy-image/home_page_images/piggy.png')
+const build2 = require('./piggy-image/home_page_images/safelock.png')
+const build3 = require('./piggy-image/home_page_images/target.png')
+const build4 = require('./piggy-image/home_page_images/flex.png')
+
 export const NavLinks=[
     {
         id:1,
         name:"Save",
-        path:"save"
+        path:"save",
+        modal:[
+            {
+            name: 'PiggyBank',
+            link:'/piggybank',
+            image:build1
+            },
+            {
+            name: 'Safelock',
+            link:'/safelock',
+            image:build2
+            },
+            {
+            name: 'Target Savings',
+            link:'/targets',
+            image:build3
+            },
+            {
+            name: 'Flex Naira',
+            link:'/flex-naira',
+            image:build4
+            },
+    ]
     },
     {
         id:2,
@@ -26,11 +54,6 @@ export const NavLinks=[
     }
 ]
 
-// images 
-const build1 = require('./piggy-image/home_page_images/piggy.png')
-const build2 = require('./piggy-image/home_page_images/safelock.png')
-const build3 = require('./piggy-image/home_page_images/target.png')
-const build4 = require('./piggy-image/home_page_images/flex.png')
 
 
 export const Buildsavingsdata= [

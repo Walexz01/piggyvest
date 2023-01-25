@@ -2,7 +2,9 @@ import React from 'react'
 import { Link, NavLink, Outlet } from 'react-router-dom'
 import  Logo from "../piggy-image/home_page_images/logo 2.svg";
 import { NavLinks } from '../data';
+import { useState } from 'react';
 const Layout = () => {
+    const [modalVisible, setmodalVisible] = useState(false)
   return (
     <>
         <header>
@@ -14,10 +16,24 @@ const Layout = () => {
                     </Link>
                 </div>
                 <ul className='nav_bar--list'>
-                    { NavLinks.map(({id,name,path})=>{
+                    { NavLinks.map(({id,name,path,modal})=>{
                         return(
-                            <li key={id}>
-                                <NavLink to={path}>{name}</NavLink>
+                            <li  onMouseEnter={modal ?  ()=> setmodalVisible(true): null} onMouseLeave={modal ?  ()=> setmodalVisible(false): null} key={id}>
+                                <NavLink  to={path}>{name}</NavLink>
+                                { modal && modalVisible &&
+                                    <div className="modal">
+                                        { modal.map(({name,link,image},index)=>{
+                                            return(
+                                    <Link key={index} className="link__img" to={link}>
+                                        <img src={image} alt='link icon' />
+                                        {name}
+                                    </Link>
+                                        ) 
+
+                                        })
+                                        }
+                                </div>
+                                }
                             </li>
                             )
                     })

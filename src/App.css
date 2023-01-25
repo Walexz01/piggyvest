@@ -79,6 +79,35 @@ header nav ul li a{
     white-space: nowrap;
     
 }
+.modal{
+    position: absolute;
+    content: '';
+    left: 10rem;
+    border: .1rem solid #ececec;
+    border-radius: .5rem;
+    overflow: hidden;
+    display: grid;
+    background: #fff;
+    grid-template-columns: 1fr 1fr;
+    justify-items: left;
+    gap: 0  1rem ;
+}
+.link__img img{
+    width: 2rem;
+    height: 2rem;
+}
+.link__img{
+    padding: 1rem .2rem 1rem .8rem;
+    display: inline-flex;
+    width: 100%;
+    align-items: center;
+    white-space: nowrap;
+    gap: .7rem;
+    transition: all 1s ease;
+}
+.link__img:hover{
+    background-color: rgba(223, 195, 212, 0.151);
+}
 .sign_in a{
     color: #0c1825;
     background: white;
