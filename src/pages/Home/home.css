@@ -542,7 +542,13 @@
 }
 .contact__icon--group svg{
     font-size:2rem;
+    position: relative;
+    transition: all 1s ease;
     margin-right: .5rem;
+}
+.contact__icon--group svg:hover{
+    transform: translateY(-.5rem);
+    box-shadow: 0rem 0rem 1rem rgba(0, 0, 0,0.5);
 }
 .contact___text{
     font-weight: 500;
