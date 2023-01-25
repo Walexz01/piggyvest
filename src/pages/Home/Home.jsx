@@ -1,4 +1,5 @@
 import React from 'react'
+import Asfeatured from '../../Components/Asfeatured'
 import Buildsavings from '../../Components/Buildsavings'
 import Customers from '../../Components/Customers'
 import Investify from '../../Components/Investify'
@@ -16,6 +17,7 @@ const Home = () => {
       <Investify/>
       <Monthsaver/>
       <Customers/>
+      <Asfeatured/>
     </div>
   )
 }
