@@ -32,29 +32,14 @@ const Mainheader = () => {
             </div>
                 <div className="main__header--right--background"/>
             <div className="main__header--right">
-                <div className="main__header__image--container">
-                    <div className="main__header--border--img">
-                        <img src={imgborder} alt="" />
-                    </div>
-                    <div className="main__header--girl--img">
-                        <img src={girlimg} alt="" />
-                    </div>
-                    <div className="main__header--card1">
-                        <img src={card1} alt="" />
-                    </div>
-                    <div className="main__header--card2">
-                        <img src={card2} alt="" />
-                    </div>
-                    <div className="main__header--donut">
-                        <img src={main_donut} alt="" />
-                    </div>
-                    <div className="main__header--dot">
-                        <img src={main_dot} alt="" />
-                    </div>
-                    <div className="main__header--shape">
-                        <img src={main_shape} alt="" />
-                    </div>
-
+                        <img src={imgborder} alt="" className='border' />
+                <div className="img__conatiner">
+                        <img src={girlimg} className='girl' alt="" />
+                        <img src={card1} alt="" className='card1' />
+                        <img src={card2} alt="" className='card2' />
+                        <img src={main_donut} alt="" className='donut' />
+                        <img src={main_dot} alt="" className='dot'/>
+                        <img src={main_shape} alt="" className='shape' />
                 </div>
             </div>
         </div>
