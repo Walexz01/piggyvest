@@ -86,11 +86,7 @@
 }
 .main__header--right > div img{
     position: absolute;
-
-
 }
-
-
 .main__header--border--img img{
     top: -2rem;
     right: -1rem;
@@ -576,4 +572,197 @@ a.contact__link{
     font-weight: 600;
     display: inline-block;
     color: #0d60d8;
+}
+
+
+/* media query 1024px */
+@media screen and (max-width:1024px)  {
+    .main__header__container{
+        gap: 2rem;
+    }
+    .main__header--left{
+        margin-top: 8rem;
+    }
+    .main__header--left h2{
+        font-size: 3rem;
+        line-height: 1;
+        font-weight: 600;
+    }
+    .main__header--left p{
+        font-size: 1.1rem;
+        line-height: 1.6;
+        margin-bottom: 1.2rem;
+    }
+    .get__app__links--group{
+        gap: 1.5rem;
+    }
+    .main__header--right--background{
+        width: 20rem;
+        right: 2rem;
+        height: 100%;
+    }
+    /*=================== security__section ===================== */
+.security__container{
+    gap: 2.5rem;
+    width: 70%;
+}
+.security__img{
+    height: 11rem;
+    width: 11rem;
+}
+.security__text h2{
+    font-size: 1.7rem;
+    margin-top: -2rem;
+}
+.security__text p{
+    font-size: 1.1rem;
+    line-height: 1.3;
+}
+
+
+/* ========================== build saving section styles================= */
+.build__saving__section--container{
+    gap: .6rem;
+}
+
+.build__saving--left{
+    padding: 0rem;
+    margin-top: 1rem;
+}
+.build__saving--left  h2{
+    font-size: 2rem;
+    line-height: 1.1;
+}
+.build__saving--left p{
+    padding-top: .8rem;
+    font-size: 1.2rem;
+    line-height: 1.3;
+}
+.start__saving__btn{
+    padding-top: 1.5rem;
+}
+.build__saving--right{
+    gap:  1rem 1.5rem;
+}
+
+.card{
+    padding: 1rem ;
+}
+.card__icon__top{
+    height: 3rem;
+    width: 3rem;
+    margin-bottom: 1.5rem;
+}
+.card .card__details h3{
+    font-size: 1.3rem;
+    padding-bottom: .8rem;
+}
+.card .card__details p{
+    font-size: 1.1rem;
+    color: var(--text_muted);
+    line-height: 1.2;
+}
+.card__link{
+    padding-top: 4rem;
+    gap: .5rem;
+    font-size: 1.1rem;
+}
+ .card__link svg{
+    font-size: 2.3rem;
+    padding: .3rem}
+
+
+    /* ==================== styles for the investify section ================= */
+    .investify__left .investify__image{
+        height: 35rem;
+        width: 25rem;
+    }
+    .investify__left .investify__dot{
+        width: 8rem;
+        height: 8rem;
+    }
+    .investify__content{
+        margin-top: 4rem;
+        width: 80%;
+    }
+    .investify__tag{
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+    .investify__content h3{
+        font-size: 2.5rem;
+        margin-bottom: 1.5rem;
+    }
+    .investify__content p{
+        font-size: 1.1rem;
+        line-height: 1.6;
+        margin-bottom: 1.5rem;
+    }    
+
+    /* =================================== month__saver__section ========================= */
+
+.month__saver__left{
+    padding-top: 3rem;
+}
+.month__saver__left--content{
+    width: 90%;
+}
+.month__saver__left--content h3{
+    font-size: 2.5rem;
+    margin-bottom: .5rem;
+}
+.month__saver__left--content p{
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+.month__saver__left .card__link{
+    padding: 1.5rem 0 2rem 0;
+    font-size: 1.1rem;
+}
+
+/* customers styles start */
+
+.customers__container{
+    gap: 3rem;
+}
+.right__customer__container{
+    width: 90%;
+}
+.right__customer__container h3{
+    font-size: 2.1rem;
+    padding-bottom: .8rem;
+}
+.right__customer__container p{
+    font-size: 1.2rem;
+}
+.customer__tweet{
+    padding: .5rem;
+}
+.customer__tweet .tweet__date__time--container{
+    font-size: 1rem;
+    padding-bottom: .5rem;
+}
+.tweet__content{
+    gap: .8rem;
+}
+
+/* asfeatured__section */
+
+.asfeatured__container{
+    gap: 2rem;
+}
+.asfeatured__container .right> img{
+    width: 10rem;
+}
+.asfeatured__container .right{
+    gap: 3rem;
+}
+/* footer__section */
+
+.ndpr__logo--conatiner{
+    width: 12rem;
+    transform: scale(.8);
+}
+
+
 }
