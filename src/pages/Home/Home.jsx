@@ -10,6 +10,7 @@ import Security from '../../Components/Security'
 import './home.css'
 
 const Home = () => {
+  
   return (
     <div className='home'>
       <Mainheader/>

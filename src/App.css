@@ -25,13 +25,15 @@ section{
     margin-inline: auto;
 }
 header{
-    background: white;
     width: 100%;
     display: flex;
     align-items: center;
     position: fixed;
     height: 6.5rem;
     z-index: 222;
+}
+.scrolled{
+    background: white;
 }
 header nav{
     display: flex;

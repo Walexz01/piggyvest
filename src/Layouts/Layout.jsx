@@ -9,9 +9,13 @@ import {TiTimes} from 'react-icons/ti'
 const Layout = () => {
     const [modalVisible, setmodalVisible] = useState(false)
     const [navVisible, setNavVisible] = useState(false)
+    const [top, setTop] = useState(false)
+    window.addEventListener('scroll',()=>{
+        window.scrollY > 5 ? setTop(true) : setTop(false)
+    })
   return (
     <>
-        <header>
+        <header className={top ? 'scrolled': ' '}>
         <nav className='nav_bar'>
                 <div className="nav_bar--logo" >
                     <Link to='/' onClick={()=> setNavVisible(false)}>
