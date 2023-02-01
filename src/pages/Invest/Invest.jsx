@@ -1,9 +1,12 @@
 import React from 'react'
+import Investheader from '../../Components/Investheader'
 import './invest.css'
 
 const Invest = () => {
   return (
-    <div>Invest</div>
+    <div className='invest'>
+      <Investheader/>
+    </div>
   )
 }
 

@@ -1,0 +1,195 @@
+/* ======================= invest__header section ==================== */
+.invest__header--container{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 2rem;
+    position: relative;
+    place-items: center;
+    padding-top: 3rem;
+}
+.invest__header--left{
+    margin-top: 5rem;
+}
+.invest__header--left h2{
+    font-size: 4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 1rem;
+}
+.invest__header--left p{
+    font-size: 1.2rem;
+    color: var(--text_muted);
+    font-weight: 500;
+    line-height: 1.5;
+}
+.saving-btn{
+    margin-top: 2rem;
+}
+.saving-btn a{
+    background: var(--color--purple);
+    padding: .9rem 2rem;    
+    font-size: 1.3rem;
+}
+.saving-btn a:hover{
+    background: var(--color--purple);
+}
+.invest__header--right{
+    padding-bottom: 5rem;
+    position: relative;
+}
+.invest__header--image{
+    margin-top: 3rem;
+    width: 25rem;
+    height: 35rem;
+    
+}
+.invest__header--right .img__container img{
+    position: absolute;
+}
+.img__container .investify__dot{
+    transform: scale(.22);
+    top: -15rem;
+    right: -11rem;
+}
+.img__container .shape{
+    top: -9rem;
+    left: -9rem;
+    transform: scale(.2);
+}
+.img__container .investcard1{
+    top: 15rem;
+    left: -5rem;
+    transform: scale(.8);
+}
+.img__container .investcard2{
+    bottom: 9rem;
+    left: -5rem;
+    transform: scale(.8);
+}
+.img__container .investdonut{
+    transform: scale(.15);
+    bottom: -9rem;
+    left: 10rem;
+}
+
+
+/* ============================  media queries =========================  */
+
+/* media query 1024px */
+@media screen and (max-width:1024px)  {
+/* ======================= invest__header section ==================== */
+    .invest__header--container{
+        gap: 1rem;
+        padding-top: 2rem;
+    }
+    .invest__header--left{
+        margin-top: 2rem;
+    }
+    .invest__header--left h2{
+        font-size: 3rem;
+        padding-bottom: .2rem;
+    }
+    .invest__header--left p{
+        font-size: 1.1rem;
+        line-height: 1.5;
+    }
+    .saving-btn{
+        margin-top: 1rem;
+    }
+    .saving-btn a{
+        padding: .8rem 1.8rem;    
+        font-size: 1.2rem;
+    }
+    .invest__header--right{
+        padding-bottom: 7rem;
+    }
+    .invest__header--image{
+        margin-top: 2rem;
+        width: 20rem;
+    }
+    .img__container .investify__dot{
+        top: -10rem;
+        right: -10rem;
+    }
+    .img__container .shape{
+        top: -8rem;
+        left: -9rem;
+    }
+    .img__container .investcard2{
+        bottom: 13rem;
+    }
+    .img__container .investdonut{
+        bottom: -4rem;
+    }        
+}
+
+/* media query max-width:935px  */
+@media screen and (max-width:935px)  {
+/* ======================= invest__header section ==================== */
+.invest__header--container{
+    grid-template-columns: 1fr ;
+    padding-top: 3rem;
+}
+.invest__header--left{
+    margin-top: 7rem;
+    text-align: center;
+}
+.invest__header--left h2{
+    font-size: 4.5rem;
+    padding-bottom: .2rem;
+}
+.invest__header--left p{
+    font-size: 1.1rem;
+}
+.saving-btn{
+    margin-top: 1rem;
+}
+.saving-btn a{
+    padding: .9rem 1.5rem;    
+    font-size: 1.2rem;
+}
+.img__container .shape{
+    top: -8rem;
+}
+.img__container .investcard2{
+    bottom: 13rem;
+}
+.img__container .investdonut{
+    bottom: 0rem;
+    left: 12rem;
+}
+}
+
+/* media query max-width:675px  */
+@media screen and (max-width:675px)  {
+/* ======================= invest__header section ==================== */
+.invest__header--left h2{
+    font-size: 4rem;
+    padding-bottom: .6rem;
+}
+.invest__header--left p{
+    font-size: 1.1rem;
+}
+.saving-btn a{
+    padding: .8rem 1.5rem;    
+}
+.invest__header--image{
+    margin-top: 3rem;    
+}
+.invest__header--right{
+    padding-bottom: 2rem;
+}
+.img__container .investify__dot{
+    top: -10rem;
+    right: -11rem;
+}
+.img__container .shape{
+    top: -7rem;
+}
+.img__container .investcard2{
+    bottom: 9rem;
+}
+.img__container .investdonut{
+    bottom: -5rem;
+    left: 11rem;
+}
+}

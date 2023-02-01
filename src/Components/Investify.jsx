@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import InvestifyImg from '../piggy-image/home_page_images/invest.png'
 import Investifydot from '../piggy-image/home_page_images/investify__dot.png'
+
 const Investify = () => {
   return (
     <section className='investify__section'>
