@@ -170,3 +170,26 @@ export const legalLink = [
         link: '/security'
     }
 ]
+const invest1 = require('./piggy-image/invest_page_images/icon1.png')
+const invest2 = require('./piggy-image/invest_page_images/icon2.png')
+const invest3 = require('./piggy-image/invest_page_images/icon3.png')
+
+
+export const Investment = [
+    {
+        image: invest1,
+        title:"Investments simplified",
+        desc:"With minimum investments starting as low as N5,000, investment is no longer out of reach. Everyone is welcome.",
+    },
+    {
+        image:invest2,
+        title:"Invest confidently",
+        desc:"All listed investments are properly due diligenced and highly secured opportunities.",
+    },
+    {
+        image:invest3,
+        title:"Diversify your portfolio",
+        desc:"Invest in various industries such as fixed income instruments, agriculture, transportation, etc.",
+    }
+]
+

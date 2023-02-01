@@ -67,10 +67,40 @@
 }
 .img__container .investdonut{
     transform: scale(.15);
-    bottom: -9rem;
+    bottom: -6rem;
     left: 10rem;
 }
 
+
+/* ================================ simple__investments ============================= */
+.simple_investment_top{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.simple_investment_top h2{
+    font-size: 3.5rem;
+    font-family: DM Sans,sans-serif!important;
+    font-weight: 600;
+}
+.simple_investment_top p{
+    color: var(--text_muted);
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.simple__investments__container .cards__container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+    padding: 3rem 0;
+}
+.simple__investments__container .cards__container .card{
+    padding: 2rem;
+}
+
+.simple__investments__container .cards__container .card .card__details h3{
+    font-weight: bold;
+
+}
 
 /* ============================  media queries =========================  */
 
@@ -118,9 +148,34 @@
         bottom: 13rem;
     }
     .img__container .investdonut{
-        bottom: -4rem;
+        bottom: -2rem;
     }        
+/* ================================ simple__investments ============================= */
+    .simple_investment_top{
+        padding-bottom: 1rem;
+    }
+    .simple_investment_top h2{
+        font-size: 3rem;
+    }
+    .simple__investments__container .cards__container{
+        display: grid;
+        gap: 1rem;
+        padding: 2rem 0;
+    }
+    .simple__investments__container .cards__container .card{
+        padding: 1.5rem;
+    }
+    .simple__investments__container .cards__container .card .card__details h3{
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+    .simple__investments__container .cards__container .card .card__details p{
+        font-size: 1.1rem;
+        line-height: 1.5;
+    }
 }
+
+
 
 /* media query max-width:935px  */
 @media screen and (max-width:935px)  {
@@ -155,7 +210,37 @@
 }
 .img__container .investdonut{
     bottom: 0rem;
-    left: 12rem;
+    left: 10rem;
+}
+/* ================================ simple__investments ============================= */
+.simple_investment_top{
+    padding-bottom: 2rem;
+}
+.simple_investment_top h2{
+    font-size: 2.7rem;
+}
+.simple_investment_top p{
+    font-size: 1.3rem;
+}
+.simple__investments__container .cards__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem 5rem;
+}
+.simple__investments__container .cards__container .card .card__icon__top{
+    margin-inline: auto;
+
+}
+.simple__investments__container .cards__container .card{
+    padding: 2rem;
+    flex-basis: 40%;
+    text-align: center;
+}
+
+.simple__investments__container .cards__container .card .card__details h3{
+    font-weight: bold;
+
 }
 }
 
@@ -191,5 +276,18 @@
 .img__container .investdonut{
     bottom: -5rem;
     left: 11rem;
+}
+/* ================================ simple__investments ============================= */
+.simple_investment_top{
+    padding-bottom: 1rem;
+}
+.simple_investment_top h2{
+    font-size: 2rem;
+}
+.simple__investments__container .cards__container{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 3rem 8rem;
 }
 }
