@@ -102,6 +102,50 @@
 
 }
 
+/* =================================== getstarted__section ============================== */
+.getstarted__section{
+    background: var(--color--purple);
+    display: grid;
+    grid-template-columns: 3fr 2.2fr;
+    padding: 0;
+}
+.getstarted--right{
+    color: whitesmoke;
+    padding: 5rem 2rem;
+    padding-left: 0;
+}
+.getstarted--right h2{
+    padding-top: 2rem;
+    font-size: 3rem;
+    line-height: 1.2;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.getstarted--right p{
+    font-size: 1.3rem;
+    width: 80%;
+    line-height: 1.5;
+    padding-top: 1rem;
+}
+.getstarted--left{
+    position: relative;
+}
+.getstarted__img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+
+
+
+
+
+
+
+
+
+
 /* ============================  media queries =========================  */
 
 /* media query 1024px */
@@ -173,6 +217,20 @@
         font-size: 1.1rem;
         line-height: 1.5;
     }
+
+    /* =================================== getstarted__section ============================== */
+.getstarted__section{
+    grid-template-columns: 3fr 2fr;
+}
+.getstarted--right{
+    padding: 5rem 0rem;
+}
+.getstarted--right h2{
+    font-size: 2.5rem;
+}
+.getstarted--right p{
+    width: 100%;
+}
 }
 
 
@@ -242,6 +300,24 @@
     font-weight: bold;
 
 }
+/* =================================== getstarted__section ============================== */
+.getstarted__section{
+    grid-template-columns: 1fr;
+}
+.getstarted--right{
+    color: whitesmoke;
+    padding: 5rem 2rem;
+    padding-left: 0;
+    text-align: center;
+}
+.getstarted--right h2{
+    font-size: 2.7rem;
+    padding: 0 4rem;
+}
+.getstarted--right p{
+    width: 90%;
+    margin-inline: auto;
+}
 }
 
 /* media query max-width:675px  */
@@ -288,6 +364,19 @@
     display: grid;
     grid-template-columns: 1fr;
     gap: 2rem;
-    padding: 3rem 8rem;
+    padding: 3rem 4rem;
+}
+/* =================================== getstarted__section ============================== */
+.getstarted--right{
+    color: whitesmoke;
+    padding: 4rem 1rem;
+}
+.getstarted--right h2{
+    padding-top: 3rem;
+    font-size: 2.2rem;
+}
+.getstarted--right p{
+    font-size: 1.1rem;
+    width: 100%;
 }
 }
