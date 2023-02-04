@@ -11,21 +11,25 @@ export const NavLinks=[
         path:"save",
         modal:[
             {
+            id: 11,
             name: 'PiggyBank',
             link:'/piggybank',
             image:build1
             },
             {
+            id: 12,
             name: 'Safelock',
             link:'/safelock',
             image:build2
             },
             {
+            id: 13,
             name: 'Target Savings',
             link:'/targets',
             image:build3
             },
             {
+            id: 14,
             name: 'Flex Naira',
             link:'/flex-naira',
             image:build4
@@ -53,7 +57,7 @@ export const NavLinks=[
         path:"blog"
     },
     {
-        id:5,
+        id:6,
         name:"Ebook",
         path:"ebook"
     }

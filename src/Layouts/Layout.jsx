@@ -30,9 +30,9 @@ const Layout = () => {
                                     <NavLink  to={path}>{name}</NavLink>
                                     { modal && modalVisible &&
                                         <div className="modal">
-                                            { modal.map(({name,link,image},index)=>{
+                                            { modal.map(({id,name,link,image})=>{
                                                 return(
-                                        <Link key={index} className="link__img" to={link}>
+                                        <Link key={id} className="link__img" to={link}>
                                             <img src={image} alt='link icon' />
                                             {name}
                                         </Link>

@@ -187,7 +187,6 @@
     padding-top: 2rem;
 }
 .status___label small{
-    background-color: black;
     color: rgb(179, 46, 88);
     background-color: rgba(179, 46, 88, 0.067);   
     font-size: 1.2rem;
@@ -291,6 +290,43 @@
 .getstarted--right p{
     width: 100%;
 }
+/* ===========================================    RecentOppor   ========================================= */
+.recent__oppor__header{
+    padding-bottom: 3rem;
+}
+.oppor__header{
+    font-size: 3rem;
+}
+.recent_card{
+    border-radius: 1rem;
+}
+.recent__card--details{
+    padding: 2rem 1.5rem 2rem 1.5rem ;
+}
+.recent__card--details .title{
+    font-size: 1.2rem;
+    padding-bottom: 1.5rem;
+}
+.recent__card--details .number__name{
+    font-size: 1.1rem;
+    gap: .5rem;
+}
+.recent__card--details small{
+    font-size: 1.1rem;
+
+}
+.status___label small{
+    font-size: 1.1rem;
+}
+.recent__oppor__cards{
+    padding: 0 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 4rem;
+}
+
+
+
 }
 
 
@@ -439,4 +475,30 @@
     font-size: 1.1rem;
     width: 100%;
 }
+/* ===========================================    RecentOppor   ========================================= */
+.recent__oppor__header{
+    padding-bottom: 3rem;
+}
+.oppor__header{
+    font-size: 2.2rem;
+}
+.recent__card--details .title{
+    font-size: 1.2rem;
+}
+.recent__card--details .number__name{
+    font-size: 1.2rem;
+}
+.recent__card--details small{
+    font-size: 1.1rem;
+
+}
+.status___label small{
+    font-size: 1rem;
+}
+.recent__oppor__cards{
+    grid-template-columns: 1fr ;
+    gap: 3em;
+    padding: 0 4rem;
+}
+
 }
