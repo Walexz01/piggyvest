@@ -136,12 +136,72 @@
     object-fit: fill;
 }
 
+/* ===========================================    RecentOppor   ========================================= */
+.recent__oppor__header{
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+.oppor__header{
+    font-size: 3.5rem;
+    font-family: DM Sans,sans-serif!important;
+}
+.recent_card{
+    background-color: #f9f9f9;
+    border-radius: 2rem;
+    overflow: hidden;
+}
+.recent__card--details{
+    padding: 2rem 1.5rem 2rem 1.5rem ;
+}
+.recent__card--details .title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-bottom: 2rem;
+    font-family: DM Sans,sans-serif!important;
+}
+.recent__card--details .price__investor{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.recent__card--details .number__name{
+    font-size: 1.3rem;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+    padding-bottom: 1rem;
+}
+.recent__card--details small{
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
 
-
-
-
-
-
+}
+.recent_card .recent_card__img--container{
+    height: 10rem;
+    overflow: hidden;
+    
+}
+.status___label{
+    padding-top: 2rem;
+}
+.status___label small{
+    background-color: black;
+    color: rgb(179, 46, 88);
+    background-color: rgba(179, 46, 88, 0.067);   
+    font-size: 1.2rem;
+    padding: .8rem 2rem;
+    width: auto;
+    border-radius: 2rem;
+    text-align: center;
+    font-weight: 600;
+}
+.recent__oppor__cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
 
 
 

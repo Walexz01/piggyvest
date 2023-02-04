@@ -51,6 +51,11 @@ export const NavLinks=[
         id:5,
         name:"Blog",
         path:"blog"
+    },
+    {
+        id:5,
+        name:"Ebook",
+        path:"ebook"
     }
 ]
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import oyetola from '../piggy-image/home_page_images/oyetades.jpg'
+import getstarted__img from '../piggy-image/invest_page_images/image.png'
 
 const Getstarted = () => {
   return (
@@ -11,7 +11,7 @@ const Getstarted = () => {
             </div>
         </div>
             <div className="getstarted--left">
-                <img src={oyetola} className='getstarted__img' alt="" />
+                <img src={getstarted__img} className='getstarted__img' alt="" />
             </div>
     </section>
   )
