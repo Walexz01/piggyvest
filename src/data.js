@@ -8,7 +8,7 @@ export const NavLinks=[
     {
         id:1,
         name:"Save",
-        path:"save",
+        path:"/#save",
         modal:[
             {
             id: 11,

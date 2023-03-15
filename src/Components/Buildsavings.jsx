@@ -5,7 +5,7 @@ import { Buildsavingsdata } from '../data'
 
 const Buildsavings = () => {
   return (
-    <section>
+    <section id='saving'>
         <div className="container build__saving__section--container">
           <div className="build__saving--left">
             <h2>4 ways to build your savings</h2>

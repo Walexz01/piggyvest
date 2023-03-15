@@ -1,8 +1,11 @@
 import React from 'react'
+import Storieshead from '../../Components/Storieshead'
 import './stories.css'
 const Stories = () => {
   return (
-    <div>Stories</div>
+    <div className='stories'>
+      <Storieshead/>
+    </div>
   )
 }
 
